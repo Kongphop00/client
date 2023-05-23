@@ -15,6 +15,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPenToSquare,faTrash } from '@fortawesome/free-solid-svg-icons'
 
 const App = () => {
+  
+  
   const Alert = withReactContent(Swal)
   const [blogs, setBlogs] = useState([])
 
